@@ -41,7 +41,7 @@ env[TEMP] = /home/$1/tmp
 "
 
 pool_file_56="/opt/remi/php56/root/etc/php-fpm.d/$2.conf"
-pool_file_70="/etc/opt/remi/php70/php-fpm.d/$2.conf""
+pool_file_70="/etc/opt/remi/php70/php-fpm.d/$2.conf"
 pool_file_71="/etc/opt/remi/php71/php-fpm.d/$2.conf"
 pool_file_72="/etc/opt/remi/php72/php-fpm.d/$2.conf"
 pool_file_73="/etc/opt/remi/php73/php-fpm.d/$2.conf"
