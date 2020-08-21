@@ -24,6 +24,13 @@ pm.max_requests = 4000
 pm.process_idle_timeout = 10s
 pm.status_path = /status
 
+# If you are shared hosting you coud set this directives
+#php_admin_value[upload_max_filesize] = 80M
+#php_admin_value[max_execution_time] = 20
+#php_admin_value[post_max_size] = 80M
+#php_admin_value[memory_limit] = 256M
+# end
+
 php_admin_value[upload_tmp_dir] = /home/$1/tmp
 php_admin_value[session.save_path] = /home/$1/tmp
 php_admin_value[open_basedir] = $5:/home/$1/tmp:/bin:/usr/bin:/usr/local/bin:/var/www/html:/tmp:/usr/share:/etc/phpmyadmin:/var/lib/phpmyadmin:/etc/roundcube:/var/log/round$
