@@ -18,8 +18,10 @@
         AllowOverride All
         Options +Includes -Indexes +ExecCGI
     </Directory>
-    <FilesMatch \.php$>
-        SetHandler "proxy:unix:/run/php56-fpm-%domain%.sock|fcgi://localhost/"
+     <FilesMatch \.php$>
+        <If "-f %{SCRIPT_FILENAME}">
+           SetHandler "proxy:unix:/run/php56-fpm-%domain%.sock|fcgi://localhost/"
+        </If>
     </FilesMatch>
     SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
 
