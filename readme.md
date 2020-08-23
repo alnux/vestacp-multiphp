@@ -6,7 +6,7 @@ ok, thi is my backup of how crate vestacp apache multiPhp (php-fpm) Centos 7. NO
 1.-
 first of all you have to update your apache to work with AMP EVENT.
 you see worker with "httpd -V" command and you have to confirm the next info
-My actual version is Apache/2.4.46 (codeit) under centos 7 (if you have apache 2.4.6 please updade it, if you cant please ask me how)
+My actual version is Apache/2.4.46 (codeit) under centos 7 (if you have apache 2.4.6 please updade it)
 
 *Server MPM:     event*
 
