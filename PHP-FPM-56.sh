@@ -33,11 +33,11 @@ env[TMPDIR] = /home/$1/tmp
 env[TEMP] = /home/$1/tmp
 "
 pool_file_56="/opt/remi/php56/root/etc/php-fpm.d/$2.conf"
-pool_file_70="/opt/remi/php70/root/etc/php-fpm.d/$2.conf"
-pool_file_71="/opt/remi/php71/root/etc/php-fpm.d/$2.conf"
-pool_file_72="/opt/remi/php72/root/etc/php-fpm.d/$2.conf"
-pool_file_73="/opt/remi/php73/root/etc/php-fpm.d/$2.conf"
-pool_file_74="/opt/remi/php74/root/etc/php-fpm.d/$2.conf"
+pool_file_70="/etc/opt/remi/php70/php-fpm.d/$2.conf"
+pool_file_71="/etc/opt/remi/php71/php-fpm.d/$2.conf"
+pool_file_72="/etc/opt/remi/php72/php-fpm.d/$2.conf"
+pool_file_73="/etc/opt/remi/php73/php-fpm.d/$2.conf"
+pool_file_74="/etc/opt/remi/php74/php-fpm.d/$2.conf"
 
 write_file=0
 if [ ! -f "$pool_file_56" ]; then
