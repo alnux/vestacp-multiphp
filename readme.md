@@ -74,11 +74,11 @@ thats all, after install the php-fpm that you need copy the files that i attachm
 by the whay make executable the sh commands
 
 ```
-chmod a+x /usr/local/vesta/data/templates/web/apache2/PHP-FPM-56.sh
-chmod a+x /usr/local/vesta/data/templates/web/apache2/PHP-FPM-71.sh
-chmod a+x /usr/local/vesta/data/templates/web/apache2/PHP-FPM-72.sh
-chmod a+x /usr/local/vesta/data/templates/web/apache2/PHP-FPM-73.sh
-chmod a+x /usr/local/vesta/data/templates/web/apache2/PHP-FPM-74.sh
+chmod a+x /usr/local/vesta/data/templates/web/httpd/PHP-FPM-56.sh
+chmod a+x /usr/local/vesta/data/templates/web/httpd/PHP-FPM-71.sh
+chmod a+x /usr/local/vesta/data/templates/web/httpd/PHP-FPM-72.sh
+chmod a+x /usr/local/vesta/data/templates/web/httpd/PHP-FPM-73.sh
+chmod a+x /usr/local/vesta/data/templates/web/httpd/PHP-FPM-74.sh
 ```
 
 i hope that it help you. bye
