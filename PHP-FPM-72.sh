@@ -6,7 +6,7 @@ home_dir="$4"
 docroot="$5"
 
 pool_conf="[$2]
-listen = /run/php71-fpm-$2.sock
+listen = /run/php72-fpm-$2.sock
 listen.allowed_clients = 127.0.0.1
 user = $1
 group = $1
